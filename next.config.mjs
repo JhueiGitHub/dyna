@@ -21,6 +21,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  experimental: {
+    nftTracing: true,
+  },
 };
 
 export default nextConfig;
